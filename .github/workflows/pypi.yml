@@ -1,9 +1,9 @@
 # Publish as a Python Package to PyPI when a release is created
 name: Publish to PyPI
 
-# on:
-#   release:
-#     types: [published]
+on:
+  release:
+    types: [published]
 
 jobs:
   deploy:
