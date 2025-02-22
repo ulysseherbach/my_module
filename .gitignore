@@ -1,0 +1,15 @@
+# OS files
+*.DS_Store
+
+# Python
+*.pyc
+
+# Other
+.vscode
+.ipynb_checkpoints
+
+# Distribution
+dist
+
+# Local
+main.py
