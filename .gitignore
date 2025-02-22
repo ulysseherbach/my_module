@@ -4,12 +4,12 @@
 # Python
 *.pyc
 
-# Other
-.vscode
-.ipynb_checkpoints
-
 # Distribution
 dist
 
 # Local
 main.py
+
+# Other
+.vscode
+.ipynb_checkpoints
