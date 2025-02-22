@@ -5,7 +5,7 @@ MyModule
 This is an example of Python module.
 """
 from importlib.metadata import version as _version
-from my_functions import square
+from my_module.my_functions import square
 
 __all__ = [
     "square",
