@@ -26,7 +26,7 @@ Homepage = "https://github.com/ulysseherbach/my_module"
 # Documentation = "https://ulysseherbach.github.io/my_module"
 
 [tool.hatch.build.targets.sdist]
-exclude = ["/.git*"]
+exclude = ["/.*"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/my_module"]
@@ -35,6 +35,6 @@ packages = ["src/my_module"]
 source = "vcs"
 raw-options = {local_scheme = "no-local-version"}
 
-[tool.ruff]
+[tool.ruff.lint]
 select = ["E", "F", "W"]
-line-length = 79
+ignore = ["E402", "E741"]
