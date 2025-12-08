@@ -1,10 +1,14 @@
-# Publish as a Python Package to TestPyPI when pushing on main branch
+# Publish as a Python Package to TestPyPI
 name: Publish to TestPyPI
 
 on:
-  push:
-    branches:
-      - main
+  # Run on pushes targeting the default branch
+  # push:
+  #   branches:
+  #     - main
+
+  # Run manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   deploy:
